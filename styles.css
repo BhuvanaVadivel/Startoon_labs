@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.medical-details {
+    margin-bottom: 20px;
+}
+
+.goal-progress {
+    position: relative;
+    margin-top: 20px;
+}
+
+.semi-circle {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress {
+    width: 200px;
+    height: 100px;
+    background-color: #4caf50;
+    border-radius: 100px 100px 0 0;
+    transform-origin: bottom center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#progress-percentage {
+    margin-top: -20px;
+    font-size: 24px;
+    color: #333;
+}
